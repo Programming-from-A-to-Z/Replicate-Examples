@@ -11,6 +11,7 @@ const model = 'meta/llama-2-7b-chat';
 go();
 
 async function go() {
+  // Prompt examples here: https://replicate.com/meta/llama-2-7b-chat/examples
   const input = {
     prompt: 'Help me with a thesis idea.',
     system_prompt: 'You are a student at ITP, Tisch School of the Arts, NYU.',
