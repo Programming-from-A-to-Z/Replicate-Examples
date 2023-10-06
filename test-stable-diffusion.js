@@ -14,6 +14,7 @@ go();
 async function go() {
   const model =
     'stability-ai/stable-diffusion:db21e45d3f7023abc2a46ee38a23973f6dce16bb082a930b0c49861f96d1e5bf';
+  // Prompt examples here: https://replicate.com/stability-ai/stable-diffusion/examples
   const input = {
     prompt: 'An interactive telecommunications thesis project.',
   };

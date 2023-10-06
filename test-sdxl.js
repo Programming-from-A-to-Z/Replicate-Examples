@@ -15,7 +15,7 @@ async function go() {
   const model =
     "stability-ai/sdxl:1bfb924045802467cf8869d96b231a12e6aa994abfe37e337c63a4e49a8c6c41";
 
-  // See prompt examples here: https://replicate.com/stability-ai/sdxl/examples
+  // Prompt examples here: https://replicate.com/stability-ai/sdxl/examples
   const input = {
     prompt:
       "Nintendo game cartridge for a video game named 'Programming from A to Z', cartridge design, branding, packaging, typography",
