@@ -2,12 +2,6 @@
 
 This repo contains a "hello world" example demonstrating the how to prompt a machine learning model hosted by Replicate via node.js. This example is for the [Programming from A to Z](https://github.com/Programming-from-A-to-Z/A2Z-F23) class at ITP, NYU. (Students in the class, contact me for your API key!)
 
-## Example Overview
-
-This example provides a concise demonstration on utilizing Replicate to communicate with a hosted machine learning model, and retrieve a response for a thesis idea based on a predefined prompt.
-
-### Code Overview
-
 ```javascript
 import Replicate from 'replicate';
 import * as dotenv from 'dotenv';
