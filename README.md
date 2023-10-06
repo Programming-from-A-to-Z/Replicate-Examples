@@ -1,6 +1,6 @@
 # Using Replicate in Node.js for Machine Learning Models
 
-Welcome to a simple example demonstrating the usage of Replicate with Node.js to interact with machine learning models in the cloud. This example is particularly designed for the "Programming from A to Z" class at ITP, NYU. For detailed information on the course and syllabus, kindly visit the [A2Z F23 GitHub Repository](https://github.com/Programming-from-A-to-Z/A2Z-F23).
+This repo contains a "hello world" example demonstrating the how to prompt a machine learning model hosted by Replicate via node.js. This example is for the [Programming from A to Z](https://github.com/Programming-from-A-to-Z/A2Z-F23) class at ITP, NYU. (Students in the class, contact me for your API key!)
 
 ## Example Overview
 
@@ -8,7 +8,7 @@ This example provides a concise demonstration on utilizing Replicate to communic
 
 ### Code Overview
 
-````javascript
+```javascript
 import Replicate from 'replicate';
 import * as dotenv from 'dotenv';
 dotenv.config();
@@ -31,11 +31,8 @@ async function go() {
 }
 ```
 
-## Introduction to Replicate
+## Replicate
 
-[Replicate](https://replicate.com/) is a platform for running machine learning models in the cloud from your own code.
+[Replicate](https://replicate.com/) is a platform for running machine learning models in the cloud from your own code. [Browse models](https://replicate.com/explore).
 
-### Documentation
-
-For detailed usage, setup, and other guidelines, refer to the official [Replicate Documentation for Node.js](https://replicate.com/docs/get-started/nodejs).
-````
+For detailed usage, setup, and more, here is the official [Replicate Documentation for Node.js](https://replicate.com/docs/get-started/nodejs).
