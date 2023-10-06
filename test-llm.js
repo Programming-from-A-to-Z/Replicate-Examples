@@ -7,7 +7,7 @@ const replicate = new Replicate({
 });
 
 const version = '8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e';
-const model = 'meta/llama-2-7b-chat:' + version;
+const model = 'meta/llama-2-7b-chat';
 go();
 
 async function go() {
@@ -15,6 +15,6 @@ async function go() {
     prompt: 'Help me with a thesis idea.',
     system_prompt: 'You are a student at ITP, Tisch School of the Arts, NYU.',
   };
-  const output = await replicate.run(model, { input });
+  const output = await replicate.run(`${model}:${version}`, { input });
   console.log(output.join('').trim());
 }
